@@ -31,7 +31,7 @@ define('put_RemoveComment', '/');
 define('post_rateComment', '/rate/{comment_id}');
 
 
-//Contact admin
+//Send message to the admin
 define('post_contactAdmin', '/contact');
 
 

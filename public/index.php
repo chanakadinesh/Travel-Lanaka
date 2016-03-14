@@ -49,6 +49,12 @@ $app->get(home, function (Request $request, Response $response) {
     return $response;
 });
 
+$app->get(post_register, function (Request $request, Response $response) {
+    $name = $request->getAttribute('name');
+    $response->getBody()->write("Welcome to Travel Lanka    ");
+
+    return $response;
+});
 
 /*----------------------------------------------------------------------------------------*/
 $app->run();
