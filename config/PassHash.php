@@ -8,7 +8,6 @@
 
 class PassHash {
 
-    // blowfish
     private static $algo = '$2a';
     // cost parameter
     private static $cost = '$10';
